@@ -2,7 +2,7 @@
 
 /*
  * A simple program written to showcase a generic genetic algorithm, including
- * all required steps of Darwinian natural selection (i.e. heredity, validation
+ * all required steps of Darwinian natural selection (i.e. heredity, validation,
  * and selection)
  *
  * Algorithm Layout:
