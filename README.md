@@ -15,4 +15,4 @@ Once compiled, the program can be run with
 ```
 ./genetic-algo <target> <population size> <mutation rate>
 ```
-Keep in mind the mutation rate is passed as a decimal number, not a percentage.
+Keep in mind the mutation rate is passed as a decimal number, not a percentage. Also, the algorithm bases its elements' "genetic code" on a hard-coded character set, which includes all english letters (upper- and lowercase) and a space.
