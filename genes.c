@@ -2,16 +2,16 @@
 
 /* Generates a random number */
 unsigned int rand_int() {
-    int randval;
+    int rand_val;
     FILE *f;
 
     if ((f = fopen("/dev/urandom", "r")) < 0) {
         return 0;
     } else {
-        fread(&randval, sizeof(randval), 1, f);
+        fread(&rand_val, sizeof(rand_val), 1, f);
         fclose(f);
     }
-    return abs(randval);
+    return abs(rand_val);
 }
 
 /* Generates a random character */
